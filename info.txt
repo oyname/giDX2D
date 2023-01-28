@@ -1,0 +1,37 @@
+				      _ _______   __ ___  
+				     (_)  _  \ \ / /(__ \
+				 ____| | | | |\ V /  / _/
+				/  _ | | | | |/   \ (____).4
+			        | (_|| | |/ // /^\ \
+			        \__, |_|___// / [e]engine
+			         __/ |             
+				|___/  
+				
+---------------------------------------------------------------------------------------
+
+Copyright ©2006 Halit Ogul. Alle Rechte vorbehalten. Das Urheberrecht ist zu beachten.
+Für eventuelle Schäden die sich aus der Verwendung der hier angebotenen Software ergeben 
+wird keinerlei Haftung meinerseits übernommen. Die hier angebotene Software erhebt 
+keinen Anspruch auf Professionalität oder Vollständigkeit. 
+
+Copyright ©2006 Halit Ogul. All rights reserved.
+
+
+-Microsoft DirectX SDK ab Version 7
+-Visual C++ 5.xx / 6.xx / 7.xx Compiler von Microsoft.
+-Visual C++ 2019
+
+
+d3dim.lib
+d3drm.lib
+d3dx.lib
+d3dxd.lib
+d3dxof.lib
+d3draw.lib
+dinput.lib
+dplayx.lib
+DSETUP.lib
+dsound.lib
+dxgiud.lib
+gidxwin.lib
+---------------------------------------------------------------------------------------

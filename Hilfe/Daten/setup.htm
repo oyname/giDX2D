@@ -1,0 +1,57 @@
+<HTML><HEAD><TITLE>giDX² Dokumentation</TITLE>
+<META NAME="AUTHOR" CONTENT="Ihr Name">
+<META NAME="GENERATOR" CONTENT="Internet Designer Pro 250">
+ 
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+var browserok = false;
+if( parseInt( navigator.appVersion ) >= 3 && navigator.appName == "Netscape") { browserok = true; }
+if( parseInt( navigator.appVersion ) >= 4 && navigator.appName == "Microsoft Internet Explorer") { browserok = true; }
+function vs_ein(nam,bild,besch) {if (browserok) {document.images[nam].src = bild; window.status=besch;}}
+function vs_aus(nam,bild) {if (browserok) {document.images[nam].src = bild; window.status='';}}
+function vs_chbld(nam,bild,fra) {parent.frames[fra].document.images[nam].src = bild;}
+function vs_bgf(f) {window.document.bgColor=(f);}
+function vs_txf(f) {window.document.fgColor=(f);}
+function vs_lf(f) {window.document.linkColor=(f);}
+function vs_alf(f) {window.document.alinkColor=(f);}
+function vs_vlf(f) {window.document.vlinkColor=(f);}
+function vs_sttx(f) {window.status=(f);}
+function vs_openbr(openbrse, openbrna, openbrop) {window.open(openbrse, openbrna, openbrop )}
+function vs_multilink(URL1,F1,OP1,URL2,F2,OP2,URL3,F3,OP3)
+	{URL=new Array(); F=new Array(); OP=new Array(); URL[1] = URL1; URL[2] = URL2; URL[3] = URL3; F[1] = F1; F[2] = F2; F[3] = F3; OP[1] = OP1; OP[2] = OP2; OP[3] = OP3;
+	for(i=1;i<=3;i++){if(URL[i] != "") {
+		if(F[i] == "_blank") {window.open(URL[i])}
+		else{ if(F[i] == "_self") {location.href=URL[i];}
+		    else{ if(F[i] == "_top") {top.location.href=URL[i];}	
+			else{ if(OP[i] != "") {vs_openbr(URL[i], F[i], OP[i])}
+				else{ parent.frames[F[i]].location.href=URL[i];}}}}}}}
+
+function vs_sound(vs_start_stop,_sndObj) {
+var sndObj = eval( _sndObj );
+if(sndObj != null){
+if(vs_start_stop=='stop'){sndObj.stop();}
+else {
+if (navigator.appName == 'Netscape' ) {sndObj.play();} 
+else {
+if (document.MM_WMP_DETECTED == null) {
+document.MM_WMP_DETECTED = false;
+var i;
+for( i in sndObj )if ( i == "ActiveMovie" ){
+document.MM_WMP_DETECTED = true; break;}
+}
+if (document.MM_WMP_DETECTED)
+sndObj.play();
+else if ( sndObj.FileName )
+sndObj.run();}}}}
+//-->
+</SCRIPT>
+<style type="text/css"><!--
+A:link {color: #000A00; text-decoration: none} 
+A:visited {color: #000000; text-decoration: none}
+A:active {color: #000000; text-decoration: none}
+A:hover {color: #000000; text-decoration: none} //--></style></HEAD><BODY LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 TEXT=#000000 LINK=#000A00 ALINK=#000000 VLINK=#000000 BGCOLOR=#FFFFFF><!--vs_str- 113-->
+
+<!--SEITENABSCHNITT--><TABLE  BORDER=0 CELLPADDING=0 CELLSPACING=0 ><TR><TD WIDTH=1><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P></TR><TR><TD HEIGHT=10><TD COLSPAN=90 WIDTH=900 ROWSPAN=1><TR><TD HEIGHT=10><TD COLSPAN=1 WIDTH=10 ROWSPAN=30><TD ALIGN=LEFT VALIGN=TOP COLSPAN=89 WIDTH=890 ROWSPAN=29>
+<!--TEXT--><FONT FACE="Arial" SIZE=2><B>Compilereinstellungen f&#252;r Visual C++ 5.x / 6.x / 7.x</B><BR> <BR> Damit der Visual C++ Compiler die giDX Bibliothek verwenden kann mu&#223; der Ort, in dem die giDX&#178; Bibliothek gespeichert wurde, dem Compiler bekannt gemacht werden. Gehen Sie auf <B>Extras-&gt;Optionen</B> und w&#228;hlen den Reiter <B>Verzeichnisse</B>. Tragen Sie bei den <B>Include-Dateien</B> den Ort f&#252;r den Ordner <B>...gidx/include</B> ein und bei den <B>Bibliothekdateien</B> den Ort f&#252;r den Ordner <B>...gidx/lib</B>. Das <B>DirectX SDK 7</B> muss installiert und auch f&#252;r das DX-SDK die Compilereinstellungen vorgenommen sein. Obwohl giDX Programme mit<B> int main( )</B> beginnen ist auch dies eine <B>WIN32 Anwendung</B>. Um eine neue Anwendung zu beginnen gehen Sie auf <B>Datei-&gt;Neu</B>. W&#228;hlen Sie <B>Win32-Anwendung</B>. Best&#228;tigen Sie mit <B>OK</B>. F&#252;gen Sie Ihrem Projekt das <B>giDX&#178; SDK</B> hinzu. In dem Sie bei <B>Projek-&gt;Dem Projekt hinzuf&#252;gen-&gt;Datei alle cpp-Dateien im Ordner giDXSDK</B> in Ihre Projekt einf&#252;gen. Jetzt k&#246;nnen Sie ihren Code eingeben. </Font><FONT></Font><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10></TABLE>
+</BODY>
+</HTML>

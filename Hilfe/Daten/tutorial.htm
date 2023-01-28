@@ -1,0 +1,287 @@
+<HTML><HEAD><TITLE>giDX² Dokumentation</TITLE>
+<META NAME="AUTHOR" CONTENT="Ihr Name">
+<META NAME="GENERATOR" CONTENT="Internet Designer Pro 250">
+ 
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+var browserok = false;
+if( parseInt( navigator.appVersion ) >= 3 && navigator.appName == "Netscape") { browserok = true; }
+if( parseInt( navigator.appVersion ) >= 4 && navigator.appName == "Microsoft Internet Explorer") { browserok = true; }
+function vs_ein(nam,bild,besch) {if (browserok) {document.images[nam].src = bild; window.status=besch;}}
+function vs_aus(nam,bild) {if (browserok) {document.images[nam].src = bild; window.status='';}}
+function vs_chbld(nam,bild,fra) {parent.frames[fra].document.images[nam].src = bild;}
+function vs_bgf(f) {window.document.bgColor=(f);}
+function vs_txf(f) {window.document.fgColor=(f);}
+function vs_lf(f) {window.document.linkColor=(f);}
+function vs_alf(f) {window.document.alinkColor=(f);}
+function vs_vlf(f) {window.document.vlinkColor=(f);}
+function vs_sttx(f) {window.status=(f);}
+function vs_openbr(openbrse, openbrna, openbrop) {window.open(openbrse, openbrna, openbrop )}
+function vs_multilink(URL1,F1,OP1,URL2,F2,OP2,URL3,F3,OP3)
+	{URL=new Array(); F=new Array(); OP=new Array(); URL[1] = URL1; URL[2] = URL2; URL[3] = URL3; F[1] = F1; F[2] = F2; F[3] = F3; OP[1] = OP1; OP[2] = OP2; OP[3] = OP3;
+	for(i=1;i<=3;i++){if(URL[i] != "") {
+		if(F[i] == "_blank") {window.open(URL[i])}
+		else{ if(F[i] == "_self") {location.href=URL[i];}
+		    else{ if(F[i] == "_top") {top.location.href=URL[i];}	
+			else{ if(OP[i] != "") {vs_openbr(URL[i], F[i], OP[i])}
+				else{ parent.frames[F[i]].location.href=URL[i];}}}}}}}
+
+function vs_sound(vs_start_stop,_sndObj) {
+var sndObj = eval( _sndObj );
+if(sndObj != null){
+if(vs_start_stop=='stop'){sndObj.stop();}
+else {
+if (navigator.appName == 'Netscape' ) {sndObj.play();} 
+else {
+if (document.MM_WMP_DETECTED == null) {
+document.MM_WMP_DETECTED = false;
+var i;
+for( i in sndObj )if ( i == "ActiveMovie" ){
+document.MM_WMP_DETECTED = true; break;}
+}
+if (document.MM_WMP_DETECTED)
+sndObj.play();
+else if ( sndObj.FileName )
+sndObj.run();}}}}
+//-->
+</SCRIPT>
+<style type="text/css"><!--
+A:link {color: #FF00FF; text-decoration: none} 
+A:visited {color: #0000FF; text-decoration: none}
+A:active {color: #FF0000; text-decoration: none}
+A:hover {color: #FF0000; text-decoration: none} //--></style></HEAD><BODY LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 TEXT=#000000 LINK=#FF00FF ALINK=#FF0000 VLINK=#0000FF BGCOLOR=#FFFFFF><!--vs_str- 113-->
+
+<!--SEITENABSCHNITT--><TABLE  BORDER=0 CELLPADDING=0 CELLSPACING=0 ><TR><TD WIDTH=1><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P></TR><TR><TD HEIGHT=10><TD COLSPAN=90 WIDTH=900 ROWSPAN=1><TR><TD HEIGHT=10><TD COLSPAN=1 WIDTH=10 ROWSPAN=30><TD ALIGN=LEFT VALIGN=TOP COLSPAN=14 WIDTH=140 ROWSPAN=2>
+<!--TEXT--><B><FONT SIZE=3 FACE="Arial">Tutorial</FONT></B><TD COLSPAN=75 WIDTH=750 ROWSPAN=4><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD COLSPAN=14 WIDTH=140 ROWSPAN=2><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD VALIGN=TOP COLSPAN=89 WIDTH=890 ROWSPAN=25>
+<!--USER-CODE--><P STYLE="margin-bottom: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>Schnelleinstieg</B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=3><BR>Um
+die giDX&sup2; Bibliothek verwenden zu k&ouml;nnen sollten Sie
+Grundkenntnisse in C/C++ haben und sich mit <BR>dem Visual C++
+Compiler von Microsoft auskennen. Das Einarbeiten in die
+Funktionsweise von giDX&sup2; ist <BR>verh&auml;ltnism&auml;&szlig;ig
+einfach zu erlernen. Ich habe versucht die Verwendung von Funktionen
+so einfach wie <BR>m&ouml;glich zu gestallten. Ohne viel Vorarbeit
+sollte es m&ouml;glich sein DirectX zu initialisieren oder ein <BR>Bild
+zu laden. Die giDX&sup2; Bibliothek k&uuml;mmert sich auch um die
+Speicherverwaltung f&uuml;r Bitmaps und <BR>Sounddateien. Dieser
+Schnelleinstieg soll dem interessierten Anwender eine M&ouml;glichkeit
+geben die <BR>wichtigsten giDX&sup2;-Funktionen kennenzulernen. An
+einem kleinen Programm werde ich Ihnen zeigen wie <BR>man ein Bitmap
+ladet, es mit den Pfeiltasten bewegt auf Kollision pr&uuml;ft und
+eine Sounddatei abspielt.<BR><BR><B>Initialisierung</B></FONT></FONT></P>
+
+<P STYLE="margin-bottom: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=3><BR>Den
+gr&ouml;&szlig;ten Teil der Initialisierung &uuml;bernimmt die giDX&sup2;
+Engine. Sie m&uuml;ssen nur eingeben welche Aufl&ouml;sung<BR>sie
+haben wollen und ob die Anwendung im Fenster- oder Vollbildmodus
+laufen soll. Es ist auch m&ouml;glich eine <BR>laufende Anwendung
+zwischen Vollbild und in einem Fenster darzustellen.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<TABLE WIDTH=100% BORDER=1 BORDERCOLOR="#b3b3b3" CELLPADDING=4 CELLSPACING=0 STYLE="page-break-inside: avoid">
+	<COL WIDTH=256*>
+	<TR>
+
+		<TD WIDTH=100% VALIGN=TOP>
+			<P STYLE="margin-bottom: 0cm; background: #e6e6e6"><FONT FACE="Courier New, monospace"><FONT SIZE=3><FONT COLOR="#0000c0">#include&lt;gidx.h&gt;</FONT><FONT COLOR="#000000"><BR><BR></FONT><FONT COLOR="#0000ff">int</FONT><FONT COLOR="#000000">
+			main()<BR>{<BR></FONT><FONT COLOR="#008000">// Initialisiert
+			DirectX7</FONT><FONT COLOR="#000000"><BR></FONT><FONT COLOR="#008000">//</FONT><FONT COLOR="#000000"><BR></FONT><FONT COLOR="#008000">//
+			GXFULLSCREEN Vollbild</FONT><FONT COLOR="#000000"><BR></FONT><FONT COLOR="#008000">//
+			GXDEBUG Fenster
+			</FONT><FONT COLOR="#000000"><BR></FONT><FONT COLOR="#0000ff">if</FONT><FONT COLOR="#000000">(graphic(</FONT><FONT COLOR="#600000">800</FONT><FONT COLOR="#000000">,</FONT><FONT COLOR="#600000">600</FONT><FONT COLOR="#000000">,</FONT><FONT COLOR="#600000">32</FONT><FONT COLOR="#000000">,GXDEBUG)!=</FONT><FONT COLOR="#600000">0</FONT><FONT COLOR="#000000">)<BR></FONT><FONT COLOR="#0000ff">return</FONT><FONT COLOR="#000000">(GXRETURN);</FONT></FONT></FONT></P>
+
+			<P STYLE="background: #e6e6e6"><FONT FACE="Courier New, monospace"><FONT SIZE=3><FONT COLOR="#000000"><BR></FONT><FONT COLOR="#0000ff">while</FONT><FONT COLOR="#000000">(</FONT><FONT COLOR="#600000">1</FONT><FONT COLOR="#000000">)<BR>{<BR></FONT><FONT COLOR="#008000">//
+			Aktualisiere Tastaturabfrage</FONT><FONT COLOR="#000000"><BR>statkey();<BR></FONT><FONT COLOR="#008000">//
+			Wurde ESC gedr&uuml;ckt?</FONT><FONT COLOR="#000000"><BR></FONT><FONT COLOR="#0000ff">if</FONT><FONT COLOR="#000000">(keyhit(DIK_ESCAPE))</FONT><FONT COLOR="#0000ff">return</FONT><FONT COLOR="#000000">
+			(GXRETURN);<BR>}<BR></FONT><FONT COLOR="#0000ff">return</FONT><FONT COLOR="#000000">(GXRETURN);</FONT><FONT COLOR="#008000">//
+			Wichtig! Beim verlassen, GXRETURN zur&uuml;ckgeben</FONT><FONT COLOR="#000000"><BR>}</FONT></FONT></FONT></P>
+
+		</TD>
+	</TR>
+</TABLE>
+<P STYLE="margin-bottom: 0cm"><BR><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>Bitmap
+laden und zeichnen</B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=3><BR>giDX&sup2;
+kann Bilder im bmp-Format laden. Die Bildinformationen werden in der
+Struktur IMG gespeichert. <BR>Der Anwender muss sich um die Struktur
+IMG nicht k&uuml;mmern. Er &uuml;bergibt der Funktion einen Zeiger
+auf diese <BR>Struktur und giDX&sup2; f&uuml;llt diese mit den
+n&ouml;tigen Informationen. Wurde das Bitmap erfolgreich geladen kann
+
+<BR>mit einem einzigen Funktionsaufruf das Bitmap in den
+Bildschirmspeicher geschrieben werden.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<TABLE WIDTH=100% BORDER=1 BORDERCOLOR="#b3b3b3" CELLPADDING=4 CELLSPACING=0 STYLE="page-break-inside: avoid">
+	<COL WIDTH=256*>
+	<TR>
+		<TD WIDTH=100% VALIGN=TOP>
+			<P STYLE="background: #e6e6e6"><FONT FACE="Courier New, monospace"><FONT SIZE=3><FONT COLOR="#0000c0">#include&lt;gidx.h&gt;</FONT><FONT COLOR="#000000"><BR><BR></FONT><FONT COLOR="#0000ff">int</FONT><FONT COLOR="#000000">
+			main()<BR>{<BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Speicher f&uuml;r die Bitmaps</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;LPIMAGE
+			bild1;<BR>&nbsp;&nbsp;&nbsp;&nbsp;LPIMAGE bild2;<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Initialisiert DirectX7</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			GXFULLSCREEN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+			Vollbild</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			GXDEBUG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Fenster </FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#0000ff">if</FONT><FONT COLOR="#000000">(graphic(</FONT><FONT COLOR="#600000">800</FONT><FONT COLOR="#000000">,</FONT><FONT COLOR="#600000">600</FONT><FONT COLOR="#000000">,</FONT><FONT COLOR="#600000">32</FONT><FONT COLOR="#000000">,GXDEBUG)!=</FONT><FONT COLOR="#600000">0</FONT><FONT COLOR="#000000">)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+			</FONT><FONT COLOR="#0000ff">return</FONT><FONT COLOR="#000000">(GXRETURN);<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Bitmaps in
+			laden</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;loadimage(</FONT><FONT COLOR="#aaaaaa">&quot;bild1.bmp&quot;</FONT><FONT COLOR="#000000">,&amp;bild1,</FONT><FONT COLOR="#600000">0</FONT><FONT COLOR="#000000">);<BR>&nbsp;&nbsp;&nbsp;&nbsp;loadimage(</FONT><FONT COLOR="#aaaaaa">&quot;bild2.bmp&quot;</FONT><FONT COLOR="#000000">,&amp;bild2,</FONT><FONT COLOR="#600000">0</FONT><FONT COLOR="#000000">);<BR><BR>&nbsp;&nbsp;&nbsp;
+
+			</FONT><FONT COLOR="#0000ff">while</FONT><FONT COLOR="#000000">(</FONT><FONT COLOR="#600000">1</FONT><FONT COLOR="#000000">)<BR>&nbsp;&nbsp;&nbsp;
+			{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Bilder in den Bildschirmspeicher
+			kopieren</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drawimage(</FONT><FONT COLOR="#600000">384</FONT><FONT COLOR="#000000">,</FONT><FONT COLOR="#600000">284</FONT><FONT COLOR="#000000">,bild1,GXCLIPPING);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drawimage(</FONT><FONT COLOR="#600000">384</FONT><FONT COLOR="#000000">,</FONT><FONT COLOR="#600000">50</FONT><FONT COLOR="#000000">,bild2,GXCLIPPING);<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Aktualisiere Tastaturabfrage</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+			statkey();<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Wurde ESC gedr&uuml;ckt?</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</FONT><FONT COLOR="#0000ff">if</FONT><FONT COLOR="#000000">(keyhit(DIK_ESCAPE))</FONT><FONT COLOR="#0000ff">return</FONT><FONT COLOR="#000000">
+			(GXRETURN);<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Bildschirmspeicher auf den Monitor</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			GXFLIP_WAIT wartet bis das Bild volst&auml;ndig&nbsp; aufgebaut
+			ist</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;flip(GXFLIP_WAIT);<BR>&nbsp;&nbsp;&nbsp;
+
+			}<BR><BR></FONT><FONT COLOR="#0000ff">return</FONT><FONT COLOR="#000000">(GXRETURN);</FONT><FONT COLOR="#008000">//
+			Wichtig! Beim verlassen, GXRETURN zur&uuml;ckgeben</FONT><FONT COLOR="#000000"><BR>}</FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<P STYLE="margin-bottom: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=3><BR><B>Bitmap
+&uuml;ber die Tastatur bewegen</B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=3><BR>Auch
+die Tastaturabfrage beschr&auml;nkt sich auf das N&ouml;tigste. Eine
+Initialisierung ist hier nicht n&ouml;tig. <BR>Mit wenigen Zeilen
+Code erfolgt die Abfrage der Tastatur. Wir erweitern das Beispiel und
+bewegen das <BR>in den Speicher geladene Bild mit den Cursortasten
+auf dem Monitor.</FONT></FONT></P>
+
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<TABLE WIDTH=100% BORDER=1 BORDERCOLOR="#b3b3b3" CELLPADDING=4 CELLSPACING=0 STYLE="page-break-inside: avoid">
+	<COL WIDTH=256*>
+	<TR>
+		<TD WIDTH=100% VALIGN=TOP>
+			<P STYLE="background: #e6e6e6"><FONT FACE="Courier New, monospace"><FONT SIZE=3><FONT COLOR="#0000c0">#include&lt;gidx.h&gt;</FONT><FONT COLOR="#000000"><BR><BR></FONT><FONT COLOR="#0000ff">int</FONT><FONT COLOR="#000000">
+			main()<BR>{<BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Speicher f&uuml;r die Bitmaps</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;LPIMAGE
+			bild1;<BR>&nbsp;&nbsp;&nbsp;&nbsp;LPIMAGE bild2;<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#0000ff">int</FONT><FONT COLOR="#000000">
+
+			x=</FONT><FONT COLOR="#600000">384</FONT><FONT COLOR="#000000">;<BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#0000ff">int</FONT><FONT COLOR="#000000">
+			y=</FONT><FONT COLOR="#600000">50</FONT><FONT COLOR="#000000">;<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Initialisiert DirectX7</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			GXFULLSCREEN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Vollbild</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			GXDEBUG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+			Fenster </FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#0000ff">if</FONT><FONT COLOR="#000000">(graphic(</FONT><FONT COLOR="#600000">800</FONT><FONT COLOR="#000000">,</FONT><FONT COLOR="#600000">600</FONT><FONT COLOR="#000000">,</FONT><FONT COLOR="#600000">32</FONT><FONT COLOR="#000000">,GXDEBUG)!=</FONT><FONT COLOR="#600000">0</FONT><FONT COLOR="#000000">)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</FONT><FONT COLOR="#0000ff">return</FONT><FONT COLOR="#000000">(GXRETURN);<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Bitmaps in
+			laden</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;loadimage(</FONT><FONT COLOR="#aaaaaa">&quot;bild1.bmp&quot;</FONT><FONT COLOR="#000000">,&amp;bild1,</FONT><FONT COLOR="#600000">0</FONT><FONT COLOR="#000000">);<BR>&nbsp;&nbsp;&nbsp;&nbsp;loadimage(</FONT><FONT COLOR="#aaaaaa">&quot;bild2.bmp&quot;</FONT><FONT COLOR="#000000">,&amp;bild2,</FONT><FONT COLOR="#600000">0</FONT><FONT COLOR="#000000">);<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Farbe definieren, sp&auml;ter verwendet cls() diese Farbe um den
+			Monitor zu l&ouml;schen</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;color(</FONT><FONT COLOR="#600000">0</FONT><FONT COLOR="#000000">,</FONT><FONT COLOR="#600000">0</FONT><FONT COLOR="#000000">,</FONT><FONT COLOR="#600000">0</FONT><FONT COLOR="#000000">);<BR><BR>&nbsp;&nbsp;&nbsp;
+
+			</FONT><FONT COLOR="#0000ff">while</FONT><FONT COLOR="#000000">(</FONT><FONT COLOR="#600000">1</FONT><FONT COLOR="#000000">)<BR>&nbsp;&nbsp;&nbsp;
+			{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Aktualisiere Tastaturabfrage</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			statkey();<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Tastenabfragen</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#0000ff">if</FONT><FONT COLOR="#000000">(keydown(DIK_UP))<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			y=y-</FONT><FONT COLOR="#600000">1</FONT><FONT COLOR="#000000">;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#0000ff">if</FONT><FONT COLOR="#000000">(keydown(DIK_DOWN))<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+			y=y+</FONT><FONT COLOR="#600000">1</FONT><FONT COLOR="#000000">;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#0000ff">if</FONT><FONT COLOR="#000000">(keydown(DIK_RIGHT))<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			x=x+</FONT><FONT COLOR="#600000">1</FONT><FONT COLOR="#000000">;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#0000ff">if</FONT><FONT COLOR="#000000">(keydown(DIK_LEFT))<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			x=x-</FONT><FONT COLOR="#600000">1</FONT><FONT COLOR="#000000">;<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			keydown pr&uuml;ft ob die Taste gedr&uuml;ckt ist</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			keyhit pr&uuml;ft ob die Taste einmal gedr&uuml;ckt wurde</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+			</FONT><FONT COLOR="#0000ff">if</FONT><FONT COLOR="#000000">(keyhit(DIK_ESCAPE))</FONT><FONT COLOR="#0000ff">return</FONT><FONT COLOR="#000000">
+			(GXRETURN);<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Bildschirm l&ouml;schen mit schwarz</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cls();<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Bilder in den Bildschirmspeicher
+			kopieren</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drawimage(</FONT><FONT COLOR="#600000">384</FONT><FONT COLOR="#000000">,</FONT><FONT COLOR="#600000">284</FONT><FONT COLOR="#000000">,bild1,GXCLIPPING);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drawimage(x,&nbsp;
+
+			y,&nbsp; bild2,GXCLIPPING);<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Bildschirmspeicher auf den Monitor</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			GXFLIP_WAIT wartet bis das Bild volst&auml;ndig&nbsp; aufgebaut
+			ist</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;flip(GXFLIP_WAIT);<BR>&nbsp;&nbsp;&nbsp;
+			}<BR><BR></FONT><FONT COLOR="#0000ff">return</FONT><FONT COLOR="#000000">(GXRETURN);</FONT><FONT COLOR="#008000">//
+			Wichtig! Beim verlassen, GXRETURN zur&uuml;ckgeben</FONT><FONT COLOR="#000000"><BR>}</FONT></FONT></FONT></P>
+
+		</TD>
+	</TR>
+</TABLE>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>Kollisionsabfrage</B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=3><BR>Die
+Idee einer einfach zu verwendenden Game Engine kommt auch bei der
+Kollisionsabfrage zum tragen. <BR>Ein einfacher Funktionsaufruf pr&uuml;ft
+ob sich zwei Bitmaps &uuml;berschneiden. <BR><BR><BR><B>Soundausgabe</B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=3><BR>Wie
+bei der Tastaturabfrage ist auch bei der Soundausgabe eine
+Initialisierung nicht n&ouml;tig. Die Funktionen <BR>sind ahlich wie
+beim laden von Bitmaps. Auch hier werden die Informationen in einer
+Struktur gespeichert. <BR>Und mit einem Funktionsaufruf abgespielt.</FONT></FONT></P>
+
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<TABLE WIDTH=100% BORDER=1 BORDERCOLOR="#b3b3b3" CELLPADDING=4 CELLSPACING=0 STYLE="page-break-inside: avoid">
+	<COL WIDTH=256*>
+	<TR>
+		<TD WIDTH=100% VALIGN=TOP>
+			<P STYLE="background: #e6e6e6"><FONT FACE="Courier New, monospace"><FONT SIZE=3><FONT COLOR="#0000c0">#include&lt;gidx.h&gt;</FONT><FONT COLOR="#000000"><BR><BR></FONT><FONT COLOR="#0000ff">int</FONT><FONT COLOR="#000000">
+			main()<BR>{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Speicher f&uuml;r die Bitmaps</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;LPIMAGE
+			bild1;<BR>&nbsp;&nbsp;&nbsp; LPIMAGE bild2;<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Speicher f&uuml;r Sound</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;LPSOUND
+			snd;<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#0000ff">int</FONT><FONT COLOR="#000000">
+
+			x=</FONT><FONT COLOR="#600000">384</FONT><FONT COLOR="#000000">;<BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#0000ff">int</FONT><FONT COLOR="#000000">
+			y=</FONT><FONT COLOR="#600000">50</FONT><FONT COLOR="#000000">;<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Initialisiert DirectX7</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			GXFULLSCREEN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Vollbild</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			GXDEBUG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+			Fenster
+			</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#0000ff">if</FONT><FONT COLOR="#000000">(graphic(</FONT><FONT COLOR="#600000">800</FONT><FONT COLOR="#000000">,</FONT><FONT COLOR="#600000">600</FONT><FONT COLOR="#000000">,</FONT><FONT COLOR="#600000">32</FONT><FONT COLOR="#000000">,GXDEBUG)!=</FONT><FONT COLOR="#600000">0</FONT><FONT COLOR="#000000">)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#0000ff">return</FONT><FONT COLOR="#000000">(GXRETURN);<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Bitmaps in
+			laden</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;loadimage(</FONT><FONT COLOR="#aaaaaa">&quot;bild1.bmp&quot;</FONT><FONT COLOR="#000000">,&amp;bild1,</FONT><FONT COLOR="#600000">0</FONT><FONT COLOR="#000000">);<BR>&nbsp;&nbsp;&nbsp;&nbsp;loadimage(</FONT><FONT COLOR="#aaaaaa">&quot;bild2.bmp&quot;</FONT><FONT COLOR="#000000">,&amp;bild2,</FONT><FONT COLOR="#600000">0</FONT><FONT COLOR="#000000">);<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Sound laden</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;loadsound(</FONT><FONT COLOR="#aaaaaa">&quot;error.wav&quot;</FONT><FONT COLOR="#000000">,&amp;snd);<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Farbe definieren, sp&auml;ter verwendet cls() diese Farbe um den
+			Monitor zu l&ouml;schen</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;color(</FONT><FONT COLOR="#600000">0</FONT><FONT COLOR="#000000">,</FONT><FONT COLOR="#600000">0</FONT><FONT COLOR="#000000">,</FONT><FONT COLOR="#600000">0</FONT><FONT COLOR="#000000">);<BR><BR>&nbsp;&nbsp;&nbsp;
+
+			</FONT><FONT COLOR="#0000ff">while</FONT><FONT COLOR="#000000">(</FONT><FONT COLOR="#600000">1</FONT><FONT COLOR="#000000">)<BR>&nbsp;&nbsp;&nbsp;
+			{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</FONT><FONT COLOR="#008000">// Aktualisiere
+			Tastaturabfrage</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			statkey();<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Tastenabfragen</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#0000ff">if</FONT><FONT COLOR="#000000">(keydown(DIK_UP))<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+			y=y-</FONT><FONT COLOR="#600000">1</FONT><FONT COLOR="#000000">;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#0000ff">if</FONT><FONT COLOR="#000000">(keydown(DIK_DOWN))<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y=y+</FONT><FONT COLOR="#600000">1</FONT><FONT COLOR="#000000">;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#0000ff">if</FONT><FONT COLOR="#000000">(keydown(DIK_RIGHT))<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x=x+</FONT><FONT COLOR="#600000">1</FONT><FONT COLOR="#000000">;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#0000ff">if</FONT><FONT COLOR="#000000">(keydown(DIK_LEFT))<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x=x-</FONT><FONT COLOR="#600000">1</FONT><FONT COLOR="#000000">;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#0000ff">if</FONT><FONT COLOR="#000000">(collision(x,y,bild2,</FONT><FONT COLOR="#600000">1</FONT><FONT COLOR="#000000">,</FONT><FONT COLOR="#600000">384</FONT><FONT COLOR="#000000">,</FONT><FONT COLOR="#600000">284</FONT><FONT COLOR="#000000">,bild1,</FONT><FONT COLOR="#600000">1</FONT><FONT COLOR="#000000">))<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;play(snd,</FONT><FONT COLOR="#600000">0</FONT><FONT COLOR="#000000">,</FONT><FONT COLOR="#600000">0</FONT><FONT COLOR="#000000">,</FONT><FONT COLOR="#600000">0</FONT><FONT COLOR="#000000">);<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			keydown pr&uuml;ft ob die Taste gedr&uuml;ckt ist</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			keyhit pr&uuml;ft ob die Taste einmal gedr&uuml;ckt wurde</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+			</FONT><FONT COLOR="#0000ff">if</FONT><FONT COLOR="#000000">(keyhit(DIK_ESCAPE))</FONT><FONT COLOR="#0000ff">return</FONT><FONT COLOR="#000000">
+			(GXRETURN);<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Bildschirm l&ouml;schen mit schwarz</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cls();<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Bilder in den Bildschirmspeicher
+			kopieren</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drawimage(</FONT><FONT COLOR="#600000">384</FONT><FONT COLOR="#000000">,</FONT><FONT COLOR="#600000">284</FONT><FONT COLOR="#000000">,bild1,GXCLIPPING);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drawimage(x,&nbsp;
+
+			y,&nbsp; bild2,GXCLIPPING);<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			Bildschirmspeicher auf den Monitor</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT COLOR="#008000">//
+			GXFLIP_WAIT wartet bis das Bild volst&auml;ndig&nbsp; aufgebaut
+			ist</FONT><FONT COLOR="#000000"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;flip(GXFLIP_WAIT);<BR>&nbsp;&nbsp;&nbsp;
+			}<BR><BR></FONT><FONT COLOR="#0000ff">return</FONT><FONT COLOR="#000000">(GXRETURN);</FONT><FONT COLOR="#008000">//
+			Wichtig! Beim verlassen, GXRETURN zur&uuml;ckgeben</FONT><FONT COLOR="#000000"><BR>}</FONT></FONT></FONT></P>
+
+		</TD>
+	</TR>
+</TABLE>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10></TABLE>
+</BODY>
+</HTML>

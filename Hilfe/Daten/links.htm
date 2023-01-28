@@ -1,0 +1,76 @@
+<HTML><HEAD><TITLE>giDX² Dokumentation</TITLE>
+<META NAME="AUTHOR" CONTENT="Ihr Name">
+<META NAME="GENERATOR" CONTENT="Internet Designer Pro 250">
+<META NAME="DESCRIPTION" CONTENT=" ">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+var browserok = false;
+if( parseInt( navigator.appVersion ) >= 3 && navigator.appName == "Netscape") { browserok = true; }
+if( parseInt( navigator.appVersion ) >= 4 && navigator.appName == "Microsoft Internet Explorer") { browserok = true; }
+function vs_ein(nam,bild,besch) {if (browserok) {document.images[nam].src = bild; window.status=besch;}}
+function vs_aus(nam,bild) {if (browserok) {document.images[nam].src = bild; window.status='';}}
+function vs_chbld(nam,bild,fra) {parent.frames[fra].document.images[nam].src = bild;}
+function vs_bgf(f) {window.document.bgColor=(f);}
+function vs_txf(f) {window.document.fgColor=(f);}
+function vs_lf(f) {window.document.linkColor=(f);}
+function vs_alf(f) {window.document.alinkColor=(f);}
+function vs_vlf(f) {window.document.vlinkColor=(f);}
+function vs_sttx(f) {window.status=(f);}
+function vs_openbr(openbrse, openbrna, openbrop) {window.open(openbrse, openbrna, openbrop )}
+function vs_multilink(URL1,F1,OP1,URL2,F2,OP2,URL3,F3,OP3)
+	{URL=new Array(); F=new Array(); OP=new Array(); URL[1] = URL1; URL[2] = URL2; URL[3] = URL3; F[1] = F1; F[2] = F2; F[3] = F3; OP[1] = OP1; OP[2] = OP2; OP[3] = OP3;
+	for(i=1;i<=3;i++){if(URL[i] != "") {
+		if(F[i] == "_blank") {window.open(URL[i])}
+		else{ if(F[i] == "_self") {location.href=URL[i];}
+		    else{ if(F[i] == "_top") {top.location.href=URL[i];}	
+			else{ if(OP[i] != "") {vs_openbr(URL[i], F[i], OP[i])}
+				else{ parent.frames[F[i]].location.href=URL[i];}}}}}}}
+
+function vs_sound(vs_start_stop,_sndObj) {
+var sndObj = eval( _sndObj );
+if(sndObj != null){
+if(vs_start_stop=='stop'){sndObj.stop();}
+else {
+if (navigator.appName == 'Netscape' ) {sndObj.play();} 
+else {
+if (document.MM_WMP_DETECTED == null) {
+document.MM_WMP_DETECTED = false;
+var i;
+for( i in sndObj )if ( i == "ActiveMovie" ){
+document.MM_WMP_DETECTED = true; break;}
+}
+if (document.MM_WMP_DETECTED)
+sndObj.play();
+else if ( sndObj.FileName )
+sndObj.run();}}}}
+//-->
+</SCRIPT>
+<style type="text/css"><!--
+A:link {color: #000A00; text-decoration: none} 
+A:visited {color: #000000; text-decoration: none}
+A:active {color: #000000; text-decoration: none}
+A:hover {color: #000000; text-decoration: none} //--></style></HEAD><BODY LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 TEXT=#000000 LINK=#000A00 ALINK=#000000 VLINK=#000000 BGCOLOR=#FFFFFF><!--vs_str- 113-->
+
+<!--SEITENABSCHNITT--><TABLE  BORDER=0 CELLPADDING=0 CELLSPACING=0 ><TR><TD WIDTH=1><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P><TD WIDTH=10><P></TR><TR><TD HEIGHT=10><TD COLSPAN=25 WIDTH=250 ROWSPAN=1><TR><TD HEIGHT=10><TD COLSPAN=1 WIDTH=10 ROWSPAN=90><TD ALIGN=LEFT VALIGN=TOP COLSPAN=24 WIDTH=240 ROWSPAN=9>
+<!--BILD--><IMG SRC="bilder/gidx.jpg" BORDER=0 WIDTH=235 HEIGHT=90 NAME="b39"><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD COLSPAN=24 WIDTH=240 ROWSPAN=2><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD ALIGN=LEFT VALIGN=TOP COLSPAN=22 WIDTH=220 ROWSPAN=2>
+<!--TEXT--><FONT FACE="Arial" SIZE=2 COLOR="#000001"><B><U>&#220;bersicht</B></U></Font><FONT></Font><TD COLSPAN=2 WIDTH=20 ROWSPAN=110><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD COLSPAN=2 WIDTH=20 ROWSPAN=7><TD ALIGN=LEFT VALIGN=TOP COLSPAN=18 WIDTH=180 ROWSPAN=2>
+<!--TEXT--><FONT FACE="Arial" SIZE=2><A HREF="uebersicht.htm" TARGET="gidx_f2">Was ist giDX&#178;</A></Font><FONT></Font><TD COLSPAN=2 WIDTH=20 ROWSPAN=7><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD ALIGN=LEFT VALIGN=TOP COLSPAN=18 WIDTH=180 ROWSPAN=2>
+<!--TEXT--><FONT FACE="Arial" SIZE=2><A HREF="setup.htm" TARGET="gidx_f2">Einstellungen</A></Font><FONT></Font><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD COLSPAN=18 WIDTH=180 ROWSPAN=3><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD ALIGN=LEFT VALIGN=TOP COLSPAN=22 WIDTH=220 ROWSPAN=2>
+<!--TEXT--><FONT FACE="Arial" SIZE=2><B><U>Programmierung</B></U></Font><FONT></Font><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD COLSPAN=2 WIDTH=20 ROWSPAN=7><TD ALIGN=LEFT VALIGN=TOP COLSPAN=18 WIDTH=180 ROWSPAN=2>
+<!--TEXT--><FONT FACE="Arial" SIZE=2><A HREF="basic.htm" TARGET="gidx_f2">Basics</A></Font><FONT></Font><TD COLSPAN=2 WIDTH=20 ROWSPAN=7><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD ALIGN=LEFT VALIGN=TOP COLSPAN=18 WIDTH=180 ROWSPAN=2>
+<!--TEXT--><FONT FACE="Arial" SIZE=2><A HREF="tutorial.htm" TARGET="gidx_f2">Tutorial</A></Font><FONT></Font><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD COLSPAN=18 WIDTH=180 ROWSPAN=3><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD ALIGN=LEFT VALIGN=TOP COLSPAN=22 WIDTH=220 ROWSPAN=2>
+<!--TEXT--><FONT FACE="Arial" SIZE=2><B><U>Sonstiges</B></U></Font><FONT></Font><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD COLSPAN=2 WIDTH=20 ROWSPAN=6><TD ALIGN=LEFT VALIGN=TOP COLSPAN=18 WIDTH=180 ROWSPAN=5>
+<!--TEXT--><FONT FACE="Arial" SIZE=2><A HREF="apptitle.htm"><A HREF="apptitle.htm"><A HREF="apptitle.htm" TARGET="gidx_f2">apptitle</A></A></A><BR> <A HREF="gethwnd.htm" TARGET="gidx_f2">gethwnd</A><BR> <A HREF="iswindow.htm" TARGET="gidx_f2">iswindow</A></Font><FONT></Font><TD COLSPAN=2 WIDTH=20 ROWSPAN=6><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD COLSPAN=18 WIDTH=180 ROWSPAN=1><TR><TD HEIGHT=10><TD ALIGN=LEFT VALIGN=TOP COLSPAN=22 WIDTH=220 ROWSPAN=2>
+<!--TEXT--><FONT FACE="Arial" SIZE=2><B><U>Grafik</B></U></Font><FONT></Font><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD COLSPAN=2 WIDTH=20 ROWSPAN=51><TD ALIGN=LEFT VALIGN=TOP COLSPAN=18 WIDTH=180 ROWSPAN=16>
+<!--TEXT--><FONT FACE="Arial" SIZE=2><A HREF="freeimage.htm" TARGET="gidx_f2">freeimage</A><BR> <A HREF="graphic.htm" TARGET="gidx_f2">graphic</A><BR> <A HREF="copyimage.htm" TARGET="gidx_f2">copyimage</A><BR> <A HREF="cls.htm" TARGET="gidx_f2">cls</A><BR> <A HREF="color.htm" TARGET="gidx_f2">color</A><BR> <A HREF="flip.htm" TARGET="gidx_f2">flip</A><BR> <A HREF="createimage.htm" TARGET="gidx_f2">createimage</A><BR> <A HREF="loadimage.htm" TARGET="gidx_f2">loadimage<BR> </A><A HREF="loadanimiamge.htm" TARGET="gidx_f2">loadanimimage</A><BR> <A HREF="drawimage.htm" TARGET="gidx_f2">drawimage</A></Font><FONT FACE="Courier New"><BR> </Font><FONT></Font><TD COLSPAN=2 WIDTH=20 ROWSPAN=51><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD ALIGN=LEFT VALIGN=TOP COLSPAN=18 WIDTH=180 ROWSPAN=16>
+<!--TEXT--><FONT FACE="Arial" SIZE=2><A HREF="drawanimimage.htm" TARGET="gidx_f2">drawanimimage</A><BR> <A HREF="drawrect.htm" TARGET="gidx_f2">drawrect</A><BR> <A HREF="collision.htm" TARGET="gidx_f2">collision</A><BR> <A HREF="collisionrect.htm" TARGET="gidx_f2">collisionrect</A><BR> <A HREF="colorkey.htm" TARGET="gidx_f2">colorkey</A><BR> <A HREF="copyrect.htm" TARGET="gidx_f2">copyrect</A><BR> <A HREF="print.htm" TARGET="gidx_f2">print</A><BR> <A HREF="createfont.htm" TARGET="gidx_f2">createfont</A><BR> <A HREF="setfont.htm" TARGET="gidx_f2">setfont<BR> </A><A HREF="fontcolor.htm" TARGET="gidx_f2">fontcolor</A></Font><FONT></Font><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD ALIGN=LEFT VALIGN=TOP COLSPAN=18 WIDTH=180 ROWSPAN=16>
+<!--TEXT--><FONT FACE="Arial" SIZE=2><A HREF="getbackbuffer.htm" TARGET="gidx_f2">getbackbuffer</A><BR> <A HREF="lockbuffer.htm" TARGET="gidx_f2">lockbuffer<BR> </A><A HREF="unlockbuffer.htm" TARGET="gidx_f2">unlockbuffer</A><BR> <A HREF="setpixel.htm" TARGET="gidx_f2">setpixel</A><BR> <A HREF="getpixel.htm" TARGET="gidx_f2">getpixel</A><BR> <A HREF="getred.htm" TARGET="gidx_f2">getred</A><BR> <A HREF="getgreen.htm" TARGET="gidx_f2">getgreen</A><BR> <A HREF="getblue.htm" TARGET="gidx_f2">getblue</A><BR> <A HREF="getmode.htm" TARGET="gidx_f2">getmode</A></Font><FONT FACE="Arial" SIZE=2 COLOR="#0000FF"><BR> </Font><FONT FACE="Arial" SIZE=2><A HREF="imagew.htm" TARGET="gidx_f2">imagewidht</A></Font><FONT></Font><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD ALIGN=LEFT VALIGN=TOP COLSPAN=18 WIDTH=180 ROWSPAN=2>
+<!--TEXT--><FONT FACE="Arial" SIZE=2><A HREF="imageh.htm" TARGET="gidx_f2">imageheight</A></Font><FONT></Font><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD COLSPAN=18 WIDTH=180 ROWSPAN=1><TR><TD HEIGHT=10><TD ALIGN=LEFT VALIGN=TOP COLSPAN=22 WIDTH=220 ROWSPAN=2>
+<!--TEXT--><FONT FACE="Arial" SIZE=2><B><U>Input</B></U></Font><FONT></Font><TD COLSPAN=1 WIDTH=10 ROWSPAN=31><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD COLSPAN=3 WIDTH=30 ROWSPAN=14><TD ALIGN=LEFT VALIGN=TOP COLSPAN=18 WIDTH=180 ROWSPAN=13>
+<!--TEXT--><FONT FACE="Arial" SIZE=2><A HREF="waitkey.htm" TARGET="gidx_f2">waitkey</A><BR> <A HREF="keydown.htm" TARGET="gidx_f2">keydown</A><BR> <A HREF="keyhit.htm" TARGET="gidx_f2">keyhit</A><BR> <A HREF="statkey.htm" TARGET="gidx_f2">statkey<BR> </A><A HREF="statmouse.htm" TARGET="gidx_f2">statmouse</A><BR> <A HREF="getmousex.htm" TARGET="gidx_f2">getmousex</A><BR> <A HREF="getmousey.htm" TARGET="gidx_f2">getmousey</A><BR> <A HREF="mousedown.htm" TARGET="gidx_f2">mousedown</A></Font><FONT></Font><TD COLSPAN=1 WIDTH=10 ROWSPAN=14><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD COLSPAN=18 WIDTH=180 ROWSPAN=1><TR><TD HEIGHT=10><TD ALIGN=LEFT VALIGN=TOP COLSPAN=22 WIDTH=220 ROWSPAN=2>
+<!--TEXT--><FONT FACE="Arial" SIZE=2><B><U>Sound</B></U></Font><FONT></Font><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD COLSPAN=3 WIDTH=30 ROWSPAN=9><TD ALIGN=LEFT VALIGN=TOP COLSPAN=18 WIDTH=180 ROWSPAN=8>
+<!--TEXT--><FONT FACE="Arial" SIZE=2><A HREF="loadsound.htm" TARGET="gidx_f2">loadsound</A><BR> <A HREF="play.htm" TARGET="gidx_f2">play</A><BR> <A HREF="stop.htm" TARGET="gidx_f2">stop</A><BR> <A HREF="balance.htm" TARGET="gidx_f2">balance</A><BR> <A HREF="frequenz.htm" TARGET="gidx_f2">frequency</A><BR> <A HREF="freesound.htm" TARGET="gidx_f2">freesound</A></Font><FONT></Font><TD COLSPAN=1 WIDTH=10 ROWSPAN=9><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD COLSPAN=18 WIDTH=180 ROWSPAN=1><TR><TD HEIGHT=10><TD ALIGN=LEFT VALIGN=TOP COLSPAN=22 WIDTH=220 ROWSPAN=2>
+<!--TEXT--><FONT FACE="Arial" SIZE=2><B><U>Info</B></U></Font><FONT></Font><TR><TD HEIGHT=10><TR><TD HEIGHT=10><TD COLSPAN=3 WIDTH=30 ROWSPAN=2><TD ALIGN=LEFT VALIGN=TOP COLSPAN=18 WIDTH=180 ROWSPAN=2>
+<!--TEXT--><FONT FACE="Arial" SIZE=2><A HREF="hinweis.htm" TARGET="gidx_f2">Hinweis</A></Font><FONT></Font><TD COLSPAN=1 WIDTH=10 ROWSPAN=2></TABLE>
+</BODY>
+</HTML>
