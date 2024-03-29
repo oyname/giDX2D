@@ -6,19 +6,15 @@
 					/ _` | | | | |/   \ (____)
 				   | (_| | | |/ // /^\ \
 					\__, |_|___// / VERSION 3.25 12 2019
-					__/ |
+			        	__/ |
 				   |___/    for VisualStudio V 16.3.4     
                                  
 -----------------------------------------------------------
 	gidx.h - Header-Datei
 -----------------------------------------------------------
-	begin				: 3.10.2004
-	by					: Halit Ogul
-	e-mail				: halit.ogul@icloud.com
+begin			: 3.10.2004
 
-    last changed		: 25.12.2019
-	by					: Halit Ogul
-	e-mail				: halit.ogul@icloud.com
+last changed		: 25.12.2019
 
 ---------------------------------------------------------*/
 
@@ -40,8 +36,8 @@
 #define GX_PI    	   0.017453292f
 
 /*
-	Definiert für die Funktion flip().
-	Die Werte wurden aus dem DX SDK übernommen
+	Definiert fÃ¼r die Funktion flip().
+	Die Werte wurden aus dem DX SDK Ã¼bernommen
 */
 #define GXFLIP_WAIT    0x00000001L
 #define GXFLIP_NOVSYNC 0x00000008L
@@ -71,7 +67,7 @@
 /*
 	Wird verwendet von createfont()
 
-	Es können auch die Windows Konstanten
+	Es kÃ¶nnen auch die Windows Konstanten
 	verwendet werden.
 */
 #define GXDONTCARE	   FW_DONTCARE     
@@ -132,7 +128,7 @@ inline
 int 
 graphic(int x,int y, int bpp, int mode = 1){
 	
-	/*	    RÜCKGABEWERTE
+	/*	    RÃœCKGABEWERTE
 
 		0	OK
 		1	DirectDrawCreateEx
