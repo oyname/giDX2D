@@ -1,16 +1,8 @@
 /**********************************************************
 	gidxgraphic.h - Header-Datei
 -----------------------------------------------------------
-	begin				: 3.10.2004
-	by					: Halit Ogul
-	e-mail				: halit.ogul@icloud.com
-
+	begin			: 3.10.2004
 	last changed		: 25.12.2019
-	by					: Halit Ogul
-	e-mail				: halit.ogul@icloud.com
-
-	copyright			:(c)2004 Halit Ogul
-
 **********************************************************/
 
 #ifndef GIDXGRAPHIC_H
@@ -34,7 +26,7 @@ const int IMG_FROMUSER = 3;
 
 typedef struct IMG 
 {
-	// DirectDraw Oberfl‰chen
+	// DirectDraw Oberfl√§chen
 	LPDIRECTDRAWSURFACE7		img;			     
 
 	// Colorkey
@@ -46,7 +38,7 @@ typedef struct IMG
 	unsigned long               g;
 	unsigned long               b;
 
-	// Grˆﬂe
+	// Gr√∂√üe
 	RECT						kollision;
 	RECT						rect;
 	RECT                        org;
