@@ -1,16 +1,8 @@
 /**********************************************************
 	gidxinput.h - Header-Datei
 -----------------------------------------------------------
-	begin				: 9.10.2004
-	by					: Halit Ogul
-	e-mail				: halit.ogul@icloud.com
-
+	begin			: 9.10.2004
 	last changed		: 25.12.2019
-	by					: Halit Ogul
-	e-mail				: halit.ogul@icloud.com
-
-	copyright			:(c)2004 Halit Ogul
-
 **********************************************************/
 
 #ifndef GIDXINPUT_H
