@@ -9,12 +9,12 @@
 				
 ---------------------------------------------------------------------------------------
 
-Copyright ©2006 Halit Ogul. Alle Rechte vorbehalten. Das Urheberrecht ist zu beachten.
-Für eventuelle Schäden die sich aus der Verwendung der hier angebotenen Software ergeben 
-wird keinerlei Haftung meinerseits übernommen. Die hier angebotene Software erhebt 
-keinen Anspruch auf Professionalität oder Vollständigkeit. 
+Copyright Â©2006 Halit Ogul. Alle Rechte vorbehalten. Das Urheberrecht ist zu beachten.
+FÃ¼r eventuelle SchÃ¤den die sich aus der Verwendung der hier angebotenen Software ergeben 
+wird keinerlei Haftung meinerseits Ã¼bernommen. Die hier angebotene Software erhebt 
+keinen Anspruch auf ProfessionalitÃ¤t oder VollstÃ¤ndigkeit. 
 
-Copyright ©2006 Halit Ogul. All rights reserved.
+All rights reserved.
 
 
 -Microsoft DirectX SDK ab Version 7
